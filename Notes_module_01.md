@@ -1,4 +1,47 @@
-# Module 1
+https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/
+
+# 1 - Introduction
+
+## 1.1 What is Machine Learning
+
+- Essentially learning from data by extracting some statistical information
+
+## 1.2 ML vs rules
+
+- Rules based are easy to interpret but inflexible
+- Rules can be used to generate features for ML system
+- ML system is more flexible and dynamic
+
+## 1.3 Supervised ML
+
+- You need feature, target pairs
+- Regression, classification, rankers
+
+## 1.4 CRISP-DM
+
+- Cross-industry standard process for data mining
+    - Main pieces
+        - Business understanding
+        - Data understanding
+        - Data preparation
+        - Modeling
+        - Deployment
+    - A lot of reiteration
+
+## 1.5 Model Selection
+
+- Beware of multiple comparison problem
+    - Checking many models on the same dataset, one of the models can just by chance get better results
+    - Use Train, Val, and Test datasets, where Test dataset acts as a safeguard
+    - Once model is selected, you can combine your train and val dataset, train the model again and then predict on test dataset, not to waste val dataset
+
+## 1.6 Setting up environments
+
+- Github codespaces is an amazing option which you can connect from anywhere, work on it using visual studio from the desktop version as well.
+
+## 1.7 Introduction to numpy
+
+- A quick overview but I knew everything already
 
 ## 1.8 Linear algebra refresher
 
@@ -76,6 +119,14 @@
         - gives a list of dictionaries, one dictionary per one record
         - without orient, it defaults to giving a dictionary as {column_name_1: {index_1:value, index_2:value}} 
 
+## 1.10 Summary of module 1
 
+- A quick summary of what has been done over the module 1
+
+## 1.11 Homework
+
+- [ ] Homework of the program
+- [ ] Investigate more numpy with 3-5 projects from Claude to get deeper into it
+- [ ] Investigate mroe pandas with 3-5 projects from Claude to get deepr into it
 
 
