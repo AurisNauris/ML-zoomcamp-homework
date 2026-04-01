@@ -22,3 +22,7 @@ https://www.kaggle.com/datasets/CooperUnion/cardataset
 ## 2.05 - Linear regression
 
 - A basic linear regression formula shown and how to implement a calculation of the linear function in python
+
+## 2.06 - Linear regression: Vector form
+
+- A quick walk through how to set-up linear regression formula itself in matrix and vector form
