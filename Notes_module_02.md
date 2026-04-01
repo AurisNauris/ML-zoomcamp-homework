@@ -34,3 +34,7 @@ https://www.kaggle.com/datasets/CooperUnion/cardataset
 ## 2.08 Car price baseline model
 
 - A simple model seems to be doing okayish just by plotting histograms
+
+## 2.09 RMSE
+
+- Implemented custom computation RMSE calculation
