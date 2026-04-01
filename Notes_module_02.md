@@ -30,3 +30,7 @@ https://www.kaggle.com/datasets/CooperUnion/cardataset
 ## 2.07 - Training a linear regression model
 
 - Implemented linear regression using an approximation solution by using the solution from the linear algebra with Gramm matrix
+
+## 2.08 Car price baseline model
+
+- A simple model seems to be doing okayish just by plotting histograms
