@@ -125,8 +125,11 @@ https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/
 
 ## 1.11 Homework
 
-- [ ] Homework of the program
-- [ ] Investigate more numpy with 3-5 projects from Claude to get deeper into it
-- [ ] Investigate mroe pandas with 3-5 projects from Claude to get deepr into it
+- [x] Homework of the program
+
+## 1.12 To do extra / review
+
+- [ ] To practice numpy - rebuild some ML libraries
+- [ ] To practice pandas
 
 
