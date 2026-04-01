@@ -19,3 +19,6 @@ https://www.kaggle.com/datasets/CooperUnion/cardataset
 
 - Used basic numpy and pandas to perform shuffling and splitting of our data into train, val, and test datasets
 
+## 2.05 - Linear regression
+
+- A basic linear regression formula shown and how to implement a calculation of the linear function in python
