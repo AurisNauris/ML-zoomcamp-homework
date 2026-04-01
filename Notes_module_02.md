@@ -38,3 +38,7 @@ https://www.kaggle.com/datasets/CooperUnion/cardataset
 ## 2.09 RMSE
 
 - Implemented custom computation RMSE calculation
+
+## 2.10 Validating the model
+
+- The RMSE for the validation dataset was computed. Error similar to the training dataset
