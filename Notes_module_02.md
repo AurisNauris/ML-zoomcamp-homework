@@ -26,3 +26,7 @@ https://www.kaggle.com/datasets/CooperUnion/cardataset
 ## 2.06 - Linear regression: Vector form
 
 - A quick walk through how to set-up linear regression formula itself in matrix and vector form
+
+## 2.07 - Training a linear regression model
+
+- Implemented linear regression using an approximation solution by using the solution from the linear algebra with Gramm matrix
