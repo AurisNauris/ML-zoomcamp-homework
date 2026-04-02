@@ -21,3 +21,7 @@ https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/03-classi
 
 - Quickly checked about which columns are numeric and which ones are categorical. Also looked at the number of unique values in the categorical ones.
 
+## 3.05 Feature Importance: Churn Rate and Risk Ratio
+
+- A quick demonstration how one can look into data using pandas to compare if there are significant differences between the groups in the value that we are aiming to predict
+
