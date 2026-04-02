@@ -17,5 +17,7 @@ https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/03-classi
 - Prepared a train, val, and test datasets using sklearn.model_selection.train_test_split
 - Prepared target values and feature dataframes
 
+## 3.04 Exploratory data analysis
 
+- Quickly checked about which columns are numeric and which ones are categorical. Also looked at the number of unique values in the categorical ones.
 
