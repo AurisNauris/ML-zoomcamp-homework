@@ -51,3 +51,9 @@ https://www.kaggle.com/datasets/CooperUnion/cardataset
 # 2.12 Categorical variables
 
 - Categorical values that are string representations usually but not always, can be often efficiently encoded as a feature for machine learning applications using a hot-ones encoding. This can be done easily on tabular table using pandas directly.
+- Creating a lot of features will definitely need regularisation to keep the model from going weird
+
+# 2.13 Regularisation
+
+- In a linear regression model, one simple way to regularise the model is to add a small number to the diagonal values of the Gramm matrix. This can be done by adding a scaled np.eye() matrix of the same shape as Gramm matrix.
+- Generally helps to reduce numerical issues with invertability
