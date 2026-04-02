@@ -33,3 +33,11 @@ https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/03-classi
 ## 3.07 Feature importance: correlation
 
 - Essentially knew everything. Just useful to see that pandas offers a lot of these things easily to access. 
+
+## 3.08 One-hot encoding on scikit-learn
+
+- Can be done in many different ways:
+    - sklearn.preprocessing.OneHotEncoder
+        - Can pass dataframe directly
+    - sklearn.feature_extraction.DictVectorizer
+        - Have to pass a dictionary that is "rows"-like, essentially a list of dictionaries
