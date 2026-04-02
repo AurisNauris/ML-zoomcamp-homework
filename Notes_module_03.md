@@ -41,3 +41,7 @@ https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/03-classi
         - Can pass dataframe directly
     - sklearn.feature_extraction.DictVectorizer
         - Have to pass a dictionary that is "rows"-like, essentially a list of dictionaries
+
+## 3.09 Logistic regression
+
+- Essentially this is linear regression mapped into 0 to 1. By doing linear regression and then squishing the output space using a sigmoid function (1/(1+exp(-z)))
