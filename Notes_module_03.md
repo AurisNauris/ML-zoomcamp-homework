@@ -10,3 +10,7 @@ https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/03-classi
 
 ## 3.02 = Data Preparation
 
+- Loaded data and updated some things, like the y column, processed from yes/no to 1/0
+
+
+
