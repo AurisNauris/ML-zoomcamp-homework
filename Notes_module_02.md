@@ -68,3 +68,8 @@ https://www.kaggle.com/datasets/CooperUnion/cardataset
 - The model after training can be used then to predict prices etc on a single sample basis
 - The series has shown how to preprocess data and perform feature engineering. There was a mistake in how it is deal with that turned into a small learning experience. Essentially, using unique entries from the whole dataframe for feature engineering may not work well if it is directly applied to a single entry, because it has a single unique value in, say, category make, instead of expected 5. This may also lead to a problem if the the most common unique values are slightly different in train, val, or test datasets.
 - It is kind of good when there are mistakes and things don't work because then you need to dig a bit deeper to understand a bit more.
+
+## Homework
+
+- It was quite cute and simple manual implementation of the linear regression using only pandas and numpy
+- Nothing really new compared to the lectures but it served as a good review and also had to deal a bit with shape mismatches etc
