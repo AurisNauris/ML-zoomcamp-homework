@@ -46,3 +46,8 @@ https://www.kaggle.com/datasets/CooperUnion/cardataset
 ## 2.11 Feature engineering
 
 - With numerical features, such as year, one could transform that feature into something like ('age') that may be better suited for the ML model
+- When I created a new feature 'age' and kept the old one 'year' without any standardisation, the prediction went wild. My guess it is the correlation issue.
+
+# 2.12 Categorical variables
+
+- Categorical values that are string representations usually but not always, can be often efficiently encoded as a feature for machine learning applications using a hot-ones encoding. This can be done easily on tabular table using pandas directly.
