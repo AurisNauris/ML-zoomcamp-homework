@@ -25,3 +25,7 @@ https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/03-classi
 
 - A quick demonstration how one can look into data using pandas to compare if there are significant differences between the groups in the value that we are aiming to predict
 
+## 3.06 Feature importance: Mutual inforamtion
+
+- An interesting concept from information theory on mutual information that can give us an idea of the importance of the features
+- We can easily calculate the mutual importance for the whole dataframe using an apply function in the dataframe, where, note, the passed function takes only one argument, that is the series object
