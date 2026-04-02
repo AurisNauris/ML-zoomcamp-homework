@@ -12,5 +12,10 @@ https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/03-classi
 
 - Loaded data and updated some things, like the y column, processed from yes/no to 1/0
 
+## 3.03 Setting up the validation framework
+
+- Prepared a train, val, and test datasets using sklearn.model_selection.train_test_split
+- Prepared target values and feature dataframes
+
 
 
