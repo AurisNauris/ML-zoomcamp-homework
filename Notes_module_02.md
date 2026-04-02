@@ -39,6 +39,10 @@ https://www.kaggle.com/datasets/CooperUnion/cardataset
 
 - Implemented custom computation RMSE calculation
 
-## 2.10 Validating the model
+## 2.10 Computing RMSE on validation data
 
 - The RMSE for the validation dataset was computed. Error similar to the training dataset
+
+## 2.11 Feature engineering
+
+- With numerical features, such as year, one could transform that feature into something like ('age') that may be better suited for the ML model
