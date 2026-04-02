@@ -50,3 +50,7 @@ https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/03-classi
 
 - Implemented a simple Logistic regression model on our dataset to produce a model that performs quite okay with the validation dataset.
 - The important part that takes more work is actually the data preprocessing and preparation and then the visualisation or understanding of the results.
+
+## 3.11 Model Interpretation
+
+- Looked at the coefficients and what is their importance. Essentially, the coefficeints first a re used to produce a score and if the coefficient is +ve then it kind of means that it is promoting the positive outcome in the logistic regression and if it is negative, it is promoting the -ve outcome.
