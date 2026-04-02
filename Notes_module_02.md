@@ -48,12 +48,17 @@ https://www.kaggle.com/datasets/CooperUnion/cardataset
 - With numerical features, such as year, one could transform that feature into something like ('age') that may be better suited for the ML model
 - When I created a new feature 'age' and kept the old one 'year' without any standardisation, the prediction went wild. My guess it is the correlation issue.
 
-# 2.12 Categorical variables
+## 2.12 Categorical variables
 
 - Categorical values that are string representations usually but not always, can be often efficiently encoded as a feature for machine learning applications using a hot-ones encoding. This can be done easily on tabular table using pandas directly.
 - Creating a lot of features will definitely need regularisation to keep the model from going weird
 
-# 2.13 Regularisation
+## 2.13 Regularisation
 
 - In a linear regression model, one simple way to regularise the model is to add a small number to the diagonal values of the Gramm matrix. This can be done by adding a scaled np.eye() matrix of the same shape as Gramm matrix.
 - Generally helps to reduce numerical issues with invertability
+
+## 2.14 Tuning the model
+
+- Ran a check with several different values of regularisation parameter to see how it affects our model
+- Found that many of them give very similar results but even a tiny bit of regularisation helps significantly
