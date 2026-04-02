@@ -54,3 +54,8 @@ https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/03-classi
 ## 3.11 Model Interpretation
 
 - Looked at the coefficients and what is their importance. Essentially, the coefficeints first a re used to produce a score and if the coefficient is +ve then it kind of means that it is promoting the positive outcome in the logistic regression and if it is negative, it is promoting the -ve outcome.
+- Sigmoid function is just the last piece that helps to map from the all real number axis that the linear regression gives us, to a range (0,1), that can be used as probabilities and make decision boundaries.
+
+## 3.12 Using the model
+
+- Using the same model for the test dataset
