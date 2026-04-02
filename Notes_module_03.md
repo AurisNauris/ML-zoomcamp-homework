@@ -45,3 +45,8 @@ https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/03-classi
 ## 3.09 Logistic regression
 
 - Essentially this is linear regression mapped into 0 to 1. By doing linear regression and then squishing the output space using a sigmoid function (1/(1+exp(-z)))
+
+## 3.10 Training logistic regression with Scikit-Learn
+
+- Implemented a simple Logistic regression model on our dataset to produce a model that performs quite okay with the validation dataset.
+- The important part that takes more work is actually the data preprocessing and preparation and then the visualisation or understanding of the results.
