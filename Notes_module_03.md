@@ -29,3 +29,7 @@ https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/03-classi
 
 - An interesting concept from information theory on mutual information that can give us an idea of the importance of the features
 - We can easily calculate the mutual importance for the whole dataframe using an apply function in the dataframe, where, note, the passed function takes only one argument, that is the series object
+
+## 3.07 Feature importance: correlation
+
+- Essentially knew everything. Just useful to see that pandas offers a lot of these things easily to access. 
