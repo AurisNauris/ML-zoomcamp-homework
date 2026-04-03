@@ -15,3 +15,9 @@ https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/04-evalua
 
 - Revisited the confusion table with metrics of True positive, True negative, False positive, and False negative, established how to calculate them
 - Useful part to imagin the whole set as a circle and draw two decision boundaries, giving rise to usually 4 regions of interest.
+
+## 4.04 Precision and Recall
+
+- These two metrics are very useful to evaluate your model when the class imbalance is present. The meaning behind the names of these metrics are intuitive if you think about it:
+    - Recall - what is the fraction of the instances has our model recalled?
+    - Precision - what is the fraction of the instances that our model chose it got correctly?
