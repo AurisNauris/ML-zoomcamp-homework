@@ -21,3 +21,9 @@ https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/04-evalua
 - These two metrics are very useful to evaluate your model when the class imbalance is present. The meaning behind the names of these metrics are intuitive if you think about it:
     - Recall - what is the fraction of the instances has our model recalled?
     - Precision - what is the fraction of the instances that our model chose it got correctly?
+
+## 4.05 ROC Curves
+
+- ROC curve can be a nice visual inspection of how well your classification model does when you choose different threshold as there is always a tradeoff between TPR and FPR. 
+- ROC is a plot of x = FPR, y = TPR
+- ROC ideal point is top left
