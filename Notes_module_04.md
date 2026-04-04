@@ -32,3 +32,8 @@ https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/04-evalua
 
 - AUC - area under the curve gives a good metric to compare our model to the ideal and random one.
 - AUC can be interpreted as how likely that the score of the positive example is higher than the negative example when these examples are chosen at random. In other word, if, based on our prediction score we aranged all the example and now choose at random an actual positive or negative example, how likely we are to choose the positive one.
+
+## 4.07 Cross-validation
+
+- Essentially the same as validation, but instead of defining a single validation set, we iterate and choose repeatedly the training set and validation set, retrain the model and check against validation set. In this way, we aim to see how stable our model is based on how we select our data.
+- Allows to then compute statistics like mean and std. E.g. if std were very high, it would mean that our model is not stable and something in the data is really affecting it.
