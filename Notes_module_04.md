@@ -27,3 +27,8 @@ https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/04-evalua
 - ROC curve can be a nice visual inspection of how well your classification model does when you choose different threshold as there is always a tradeoff between TPR and FPR. 
 - ROC is a plot of x = FPR, y = TPR
 - ROC ideal point is top left
+
+## 4.06 ROC AUC
+
+- AUC - area under the curve gives a good metric to compare our model to the ideal and random one.
+- AUC can be interpreted as how likely that the score of the positive example is higher than the negative example when these examples are chosen at random. In other word, if, based on our prediction score we aranged all the example and now choose at random an actual positive or negative example, how likely we are to choose the positive one.
