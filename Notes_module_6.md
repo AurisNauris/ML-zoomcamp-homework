@@ -10,5 +10,8 @@ Getting data
 
 Looked at the data, cleaned it up and split into the train, val, and test.
 
+## 6.03 Decision trees
 
+- Decision tree essentially splits data based on the features. Need to control depth to avoid overfitting.
+- Very useful because can easily interprete the decisions
 
