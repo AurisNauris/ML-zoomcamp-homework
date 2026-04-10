@@ -20,3 +20,8 @@ Looked at the data, cleaned it up and split into the train, val, and test.
 - Find the best split (based on criterai such as entropy or missclassification)
 - Repeat on the left if STOP criteria not reached
 - Repeat on the right if STOP criteria not reached
+
+## 6.05 Decision Trees Parameters Tuning
+
+- Running custom loops to look for the best hyperparameters
+- At different hyper parameters you can get difference performance. SOmetimes though the best performance is not necessarily the best model if the slightly worse performance comes with a much simpler model
