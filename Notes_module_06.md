@@ -15,3 +15,8 @@ Looked at the data, cleaned it up and split into the train, val, and test.
 - Decision tree essentially splits data based on the features. Need to control depth to avoid overfitting.
 - Very useful because can easily interprete the decisions
 
+## 6.04 Decision Tree Learning Algorithm
+
+- Find the best split (based on criterai such as entropy or missclassification)
+- Repeat on the left if STOP criteria not reached
+- Repeat on the right if STOP criteria not reached
