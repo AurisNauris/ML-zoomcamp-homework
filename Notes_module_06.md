@@ -25,3 +25,8 @@ Looked at the data, cleaned it up and split into the train, val, and test.
 
 - Running custom loops to look for the best hyperparameters
 - At different hyper parameters you can get difference performance. SOmetimes though the best performance is not necessarily the best model if the slightly worse performance comes with a much simpler model
+
+## 6.06 Ensemble Learning and Random Forest
+
+- Ensemble learning can be applied to any model
+- Ensamble model in the case of the decision trees is called a random forest; random because each decision tree is trained with a different subset of features but same number of instances. 
