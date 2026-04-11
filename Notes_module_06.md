@@ -35,3 +35,8 @@ Looked at the data, cleaned it up and split into the train, val, and test.
 
 - Instead of training the models independently, you train them in series by training a model and predicting the results and use the error of the model 1 prediction in the training of the model 2 training and you do that for many rounds.
 - Implementation in XGBoost library
+
+## 6.08 XGBoost Parameter Tuning
+
+- Several hyperparamters to be tuned that improves the performance, in particular, **eta**, **max_depth**, and **min_child_weight**
+- Plot the results over iterations for different combinations to look for the best performance with least complicated tree and the one that is easiest to train (depends on the end goal though)
