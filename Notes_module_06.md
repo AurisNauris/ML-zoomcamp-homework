@@ -40,3 +40,8 @@ Looked at the data, cleaned it up and split into the train, val, and test.
 
 - Several hyperparamters to be tuned that improves the performance, in particular, **eta**, **max_depth**, and **min_child_weight**
 - Plot the results over iterations for different combinations to look for the best performance with least complicated tree and the one that is easiest to train (depends on the end goal though)
+
+## 6.09 Selecting the final model
+
+- Train all the models on test data with best parameters and validate on validation dataset. CHoose hte one that is performing best and then retrain on the full train data and now only this one will be tested on the test dataset.
+- In our case, the auc score from val dataset and test dataset are very similar -> did not overfit.
