@@ -30,3 +30,8 @@ Looked at the data, cleaned it up and split into the train, val, and test.
 
 - Ensemble learning can be applied to any model
 - Ensamble model in the case of the decision trees is called a random forest; random because each decision tree is trained with a different subset of features but same number of instances. 
+
+## 6.07 Gradient Boosting and XGBoost
+
+- Instead of training the models independently, you train them in series by training a model and predicting the results and use the error of the model 1 prediction in the training of the model 2 training and you do that for many rounds.
+- Implementation in XGBoost library
